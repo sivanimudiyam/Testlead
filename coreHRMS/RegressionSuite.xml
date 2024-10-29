@@ -1,0 +1,15 @@
+
+<suite name="Suite" >
+  <test name="Test">
+    <classes>
+      <class name="com.Hrms.tests.TestPIMPage">
+      
+	      <methods>
+			<include name="addAndVerifyEmployee"/>
+			<exclude name="searchAndVerifyEmployee"/>
+			
+		  </methods>
+	</class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
